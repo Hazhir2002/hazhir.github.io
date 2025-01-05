@@ -79,7 +79,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-bloodborn",
+            },{id: "post-guts",
+      
+        title: "Guts",
+      
+      description: "a fictional character",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Guts/";
+        
+      },
+    },{id: "post-bloodborn",
       
         title: "Bloodborn",
       
@@ -88,6 +99,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/photo-gallery/";
+        
+      },
+    },{id: "post-chill-guy",
+      
+        title: "Chill guy",
+      
+      description: "just a chill guy",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/ChillGuy/";
         
       },
     },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -99,28 +121,6 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-        
-      },
-    },{id: "post-a-post-with-tabs",
-      
-        title: "a post with tabs",
-      
-      description: "this is what included tabs in a post could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/tabs/";
-        
-      },
-    },{id: "post-chill-guy",
-      
-        title: "Chill guy",
-      
-      description: "Just a chill guy",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/typograms/";
         
       },
     },{id: "post-displaying-external-posts-on-your-al-folio-blog",
