@@ -155,6 +155,11 @@ ninja.data = [{
           description: "Hotel service in Italy",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-project",
+          title: 'Project...',
+          description: "Coming soon😁",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
