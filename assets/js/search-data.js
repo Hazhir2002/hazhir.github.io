@@ -79,11 +79,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-image-galleries",
+            },{id: "post-bloodborn",
       
-        title: "a post with image galleries",
+        title: "Bloodborn",
       
-      description: "this is what included image galleries could look like",
+      description: "a video game",
       section: "Posts",
       handler: () => {
         
@@ -112,11 +112,11 @@ ninja.data = [{
           window.location.href = "/blog/2024/tabs/";
         
       },
-    },{id: "post-a-post-with-typograms",
+    },{id: "post-chill-guy",
       
-        title: "a post with typograms",
+        title: "Chill guy",
       
-      description: "this is what included typograms code could look like",
+      description: "Just a chill guy",
       section: "Posts",
       handler: () => {
         
